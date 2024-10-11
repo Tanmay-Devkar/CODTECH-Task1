@@ -5,11 +5,10 @@ Domain:-Front-end web Development
 Duration:-
 Mentor:-
 
-##Overview of the project
-###Project:
+Overview of the project
+Project:
 
-###Objective:
+Objective:
 
-###key activities:
-
-###Technologies Used:
+key activities:
+Technologies Used:
