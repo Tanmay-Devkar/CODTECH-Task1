@@ -1,1 +1,241 @@
-/* task 1 for codtech internship */
+/* task 1 for codtech internship task 1: portfolio websie */
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-page" id="sectionAboutMe">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <a class="nav-link active" href="#sectionAboutMe" onclick="display('sectionAboutMe')">About Me <span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="#sectionProjectPage" onclick="display('sectionProjectPage')">Projects</a>
+                        <a class="nav-link active" href="#sectionContactUsPage" onclick="display('sectionContactUsPage')">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid ">
+
+            <div class="row d-flex flex-row justify-content-center">
+                <div class="upper-container d-flex flex-column justify-content-center shadow ">
+                    <div class="text-container text-center p-1">
+                        <h1 class="upper-container-heading ">Welcome To My Portfolio</h1>
+                        <p class="upper-container-para ">The future is coded, let us build it for you</p>
+                    </div>
+                </div>
+            </div>
+
+            <h1 class="about-me-heading text-center">About Me</h1>
+            <div class="row">
+                <div class="col-12 col-md-5 p-2 m-2 d-flex flex-row justify-content-center">
+                    <img src="https://i.ibb.co/cYM0LmG/Whats-App-Image-2024-10-11-at-23-55-09-20e2466c.jpg" class="about-image" />
+                </div>
+                <div class=" para-container p-2  shadow-lg col-12 col-md-6 m-2 bg-light">
+                    <p class="para p-2  text-center">
+                        Hello! I'm a web developer specializing in creating exceptional digital experiences. Whether it's working on web applications, mobile apps, and machine learning projects, Database Management, I strive to build things that make a difference.
+                    </p>
+                </div>
+                <div class="d-none d-md-block col-md-12 medium-sized-extra-container mt-5 m-3">
+                    <div class="unordered-list-container">
+                        <p class="extra-heading">Skills</p>
+                        <ul class="list">
+                            <li class="list-item">HTML5</li>
+                            <li class="list-item">CSS</li>
+                            <li class="list-item">Bootstrap</li>
+                            <li class="list-item">Sqlite</li>
+                            <li class="list-item">Python</li>
+                            <li class="list-item">JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="button-container text-center m-1 d-md-none">
+                <button class="button btn btn-primary" onclick="display('sectionProjectPage')"> View Projects</button>
+            </div>
+            <div class="button-container text-center m-2 d-none d-md-block">
+                <button class="button btn btn-primary" onclick="display('sectionProjectPage')"> View Projects</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="project-page" id="sectionProjectPage">
+        <div class="container-fluid">
+            <h1 class="Project-main-heading text-center mb-3">Projects</h1>
+            <div class="row d-flex flex-row justify-content-center">
+
+                <div class="project-container-1 bg-light col-11 col-md-3 mb-3 d-md-none shadow">
+                    <img src="https://www.shutterstock.com/image-photo/summer-resort-beach-sea-relax-600nw-2459054519.jpg" class="project-image" />
+                    <div class="text-container">
+                        <h1 class="Project-name">Tourist Guide</h1>
+                        <p class="project-description">I designed the Tourist Guide website that guides the tourist to find near locations and tourist spots</p>
+                    </div>
+                    <div class="project-button-container">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+                <div class="project-container-1 bg-light col-md-3 col-md-3 mb-3 d-none d-md-block m-2 shadow">
+                    <img src="https://www.shutterstock.com/image-photo/summer-resort-beach-sea-relax-600nw-2459054519.jpg" class="project-image-extra" />
+                    <div class="text-container">
+                        <h1 class="Project-name">Tourist Guide</h1>
+                        <p class="project-description">I designed the Tourist Guide website that guides the tourist to find near locations and tourist spots</p>
+                    </div>
+                    <div class="project-button-container">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+                <div class="project-container-1 bg-light col-11 col-md-3 mb-3 d-md-none shadow">
+                    <img src="data:image/jpeg;base64,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" class="project-image" />
+                    <div class="text-container">
+                        <h1 class="Project-name">To-do-list</h1>
+                        <p class="project-description">I designed the To-do-list that help us to manage the workload</p>
+                    </div>
+                    <div class="project-button-container">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+                <div class="project-container-1 bg-light col-11 col-md-3 mb-3 m-2 d-none d-md-block shadow">
+                    <img src="data:image/jpeg;base64,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" class="project-image-extra" />
+                    <div class="text-container">
+                        <h1 class="Project-name">To-do-list</h1>
+                        <p class="project-description">I designed the To-do-list that help us to manage the workload</p>
+                    </div>
+                    <div class="project-button-container p-2 m-1">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+
+                <div class="project-container-1 bg-light col-11 col-md-3 mb-3 d-md-none shadow">
+                    <img src="https://www.shutterstock.com/image-photo/businessman-hold-virtual-medical-network-260nw-1917115745.jpg" class="project-image" />
+                    <div class="text-container">
+                        <h1 class="Project-name">HelthCare App</h1>
+                        <p class="project-description">I designed the Helthcare app that reminds the timing to take medicens</p>
+                    </div>
+                    <div class="project-button-container">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+                <div class="project-container-1 bg-light col-11 col-md-3 mb-3 m-2 d-none d-md-block shadow">
+                    <img src="https://www.shutterstock.com/image-photo/businessman-hold-virtual-medical-network-260nw-1917115745.jpg" class="project-image-extra" />
+                    <div class="text-container">
+                        <h1 class="Project-name">HelthCare App</h1>
+                        <p class="project-description">I designed the Helthcare app that reminds the timing to take medicens</p>
+                    </div>
+                    <div class="project-button-container p-2 m-1">
+                        <button class="button btn btn-primary">View Project</button>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="button-container p-2 m-2 d-flex flex-row justify-content-center">
+                <button class="button btn btn-success m-2" onclick="display('sectionContactUsPage')">Contact Us</button>
+                <button class="button btn btn-secondary m-2" onclick="display('sectionAboutMe')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="contact-us-page" id="sectionContactUsPage">
+        <div class="bg-container-contact">
+            <div class="container">
+                <div class="row">
+
+                    <div class="upper-section-contact text-center col-12 col-md-5">
+                        <img src="https://i.ibb.co/cYM0LmG/Whats-App-Image-2024-10-11-at-23-55-09-20e2466c.jpg" class="about-image" />
+
+                        <div class="upper-section-icons d-flex flex-row justify-content-center">
+                            <div class="icon-container">
+                                <i class="fa-brands fa-twitter icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-google icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-instagram icon"></i>
+                            </div>
+                            <div class="icon-container">
+                                <i class="fa-brands fa-linkedin icon"></i>
+                            </div>
+                        </div>
+                        <h1 class="upper-section-heading-contact">G.H.Raisoni college ,pune, wagholi.</h1>
+                    </div>
+
+                    <div class="col-6 col-md-4 mt-3">
+                        <h1 class="middle-section-heading-contact mb-3">Contact Us</h1>
+                        <div class="options d-flex flex-row">
+                            <i class="fa-solid fa-message icon mr-2"></i>
+                            <h1 class="upper-section-heading-contact">tanmaydevkar311@gmail.com</h1>
+                        </div>
+                        <div class="options d-flex flex-row mt-3">
+                            <i class="fa-solid fa-phone icon mr-2"></i>
+                            <h1 class="upper-section-heading-contact">8446550251</h1>
+                        </div>
+                        <div class="options d-flex flex-row mt-3">
+                            <i class="fa-brands fa-linkedin icon mr-2"></i>
+                            <h1 class="upper-section-heading-contact">Tanmay Devkar</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 text-right mt-3">
+                        <h1 class="middle-section-heading-contact mb-3">Let Us Help You</h1>
+                        <p class="upper-section-heading-contact">100% trusted<br />frontend project accepted</p>
+                    </div>
+
+                    <div class="lower-section text-center col-12 d-flex flex-row justify-content-center ">
+                        <hr class="hr-line" />
+                        <div class="d-flex flex-row justify-content-center mb-5">
+                            <i class="fa-solid fa-c icon mr-3 ml-2"></i>
+                            <h1 class="upper-section-heading-contact ">2023 by Tanmay. Created with Bootstrap</h1>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-center ml-auto mr-auto">
+                        <button class="btn btn-primary" onclick="display('sectionProjectPage')">Back</button>
+                    </div>
+                    <br />
+                    <div class="contact-skill-section text-center col-12">
+                        <p class="upper-section-heading-contact">Thanks for visiting !</p><br />
+                        <p class="upper-section-heading-contact">This website is Created by <a href="">Tanmay Devkar</a></p> <br /><br />
+                        <p class="upper-section-heading-contact"> Portfolio website Orders are accepted !!! </p><br />
+                        <p class="upper-section-heading-contact">Contact on above detailes for building your oun portfolio website</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
