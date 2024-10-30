@@ -1,5 +1,5 @@
-/* task 1 for codtech internship task 1: portfolio websie */
-
+/* task 1 for codtech internship task 1: portfolio websie.... html and css are separate... */
+/*HTML Code*/
 <!DOCTYPE html>
 <html>
 
@@ -239,3 +239,165 @@
 </body>
 
 </html>
+
+/*CSS Code*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-page {
+    background-size: cover;
+    background-color: #f2f0f0;
+}
+
+.upper-container {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/874/132/small_2x/abstract-geometric-white-background-free-vector.jpg');
+    background-size: cover;
+    height: 30vh;
+    width: 90vw;
+    margin: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.upper-container-heading {
+    font-family: Playfair display SC;
+    font-size: 33px;
+}
+
+.upper-container-para {
+    font-family: Monospace;
+    font-style: italic;
+}
+
+.about-me-heading {
+    font-family: Playfair display SC;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.about-image {
+    height: 20vh;
+    border-radius: 50%;
+    padding: 5px;
+
+}
+
+.para {
+    font-family: Roboto;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.para-container {
+    margin: 10px;
+}
+
+.extra-heading {
+    font-family: Bree Serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-item {
+    font-family: Arial;
+}
+
+.project-page {
+
+    background-color: #f2f0f0;
+    background-size: cover;
+    height: 100vh;
+}
+
+.project-container-1 {
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.project-image {
+    height: 200px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.text-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.Project-main-heading {
+    font-family: Playfair display SC;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 30px;
+}
+
+.project-image-extra {
+    width: 100%;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.Project-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-us-form-container {
+    padding: 10px;
+}
+
+.bg-container-contact {
+    background-color: #19232d;
+    height: 100vh;
+    background-size: cover;
+}
+
+.upper-section-contact {
+    padding: 20px;
+
+}
+
+.main-image-contact {
+    height: 50px;
+    width: 80px;
+    margin-top: 20px;
+    margin: 10px;
+}
+
+.icon-container {
+    background-color: #202b36;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 8px;
+}
+
+.icon {
+    font-size: 30px;
+    color: #5a7184;
+}
+
+.upper-section-heading-contact {
+    color: #5a7184;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.middle-section-heading-contact {
+    color: #5a7184;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.hr-line {
+    color: #ffffff;
+
+}
+
+
