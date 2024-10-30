@@ -38,3 +38,10 @@ Integrate the database to store and retrieve project details or contact form sub
 - Visit the homepage to explore my portfolio.
 - Navigate through different sections to learn more about my skills and projects.
 - Use the contact form to get in touch for inquiries or collaboration opportunities.
+
+![Screenshot (224)](https://github.com/user-attachments/assets/3c575403-c8d7-45bf-bb03-5256964b1ca5)
+![Screenshot (225)](https://github.com/user-attachments/assets/b09a1180-83c3-4eae-9b9a-51cd636dbf30)
+![Screenshot (226)](https://github.com/user-attachments/assets/2c1434c4-0621-4ab7-9d82-18197aed46f5)
+![Screenshot (227)](https://github.com/user-attachments/assets/01dc2406-a1a6-4832-8239-0e1142861a54)
+
+
